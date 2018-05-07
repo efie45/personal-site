@@ -797,6 +797,28 @@ header {
     transition-delay: 0.1s;
 }
 
+.work .work-content p {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+    color: #FFF;
+    margin-bottom: 10px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.work:hover .work-content p {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
 .work .work-content span {
     display: block;
     text-transform: uppercase;
@@ -894,7 +916,7 @@ header {
 
 .footer-logo>a {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
